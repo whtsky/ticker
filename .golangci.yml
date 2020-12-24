@@ -1,0 +1,9 @@
+linters:
+  enable:
+    - goimports
+    - lll
+linters-settings:
+  lll:
+    line-length: 80
+run:
+  timeout: 1m
